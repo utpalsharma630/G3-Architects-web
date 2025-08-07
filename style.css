@@ -6,3 +6,61 @@
   font-weight: 400;
   font-style: normal;
 }
+
+#body{
+    max-width: 1440px;
+    margin: auto;
+}
+header{
+    /* max-width: 1440px;
+    margin: auto; */
+    background-color:rgba(255, 144, 14, 0.1) ;
+}
+
+/* nav style */
+nav{
+    justify-content: space-between;
+    margin: auto;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #424242;
+}
+
+/* shared style */
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.title-name{
+    font-size: 2.8rem;
+    font-weight:bold;
+    color: #131313;
+}
+
+
+
+
+/* small device responsive design */
+@media screen and (max-width:576px) {
+    .navbar,
+    .menu-item
+    {
+        flex-direction: column;
+    }
+    .menu-item{
+        padding: 0;
+        gap: 10px;
+    }
+    ul li{
+        margin-left: 0;
+    }
+}
