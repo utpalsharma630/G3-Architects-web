@@ -7,20 +7,16 @@
   font-style: normal;
 }
 
-#body{
-    max-width: 1440px;
-    margin: auto;
-}
 header{
-    /* max-width: 1440px;
-    margin: auto; */
     background-color:rgba(255, 144, 14, 0.1) ;
 }
-
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 /* nav style */
 nav{
     justify-content: space-between;
-    margin: auto;
 }
 
 ul li{
@@ -34,6 +30,26 @@ ul li a{
     font-weight: 500;
     color: #424242;
 }
+/* banner style */
+.banner{
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 45px;
+    
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 600;
+    color:#131313 ;
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#727272;
+}
 
 /* shared style */
 .display-flex{
@@ -44,6 +60,15 @@ ul li a{
     font-size: 2.8rem;
     font-weight:bold;
     color: #131313;
+}
+.primary-btn{
+    background-color: #FF900E;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    padding: 22px;
 }
 
 
