@@ -114,7 +114,19 @@ main>section{
     margin: 50px auto;
 }
 
-
+.footer-content{
+    border-radius: 8px;
+    background: rgba(255, 244, 231, 1);
+    max-width: 1440px;
+    margin: 100px auto;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #424242;
+    padding: 38px 0;
+    text-align: center;
+}
 /* shared style */
 .display-flex{
     display: flex;
